@@ -1,0 +1,64 @@
+/* || general styles */
+
+html {
+	font-family: 'helvetica neue', helvetica, arial, sans-serif;
+}
+
+body {
+	width: 800px;
+	margin: 0 auto;
+	padding: 10%;
+	background-color: #0c2461;
+	color: white;
+}
+
+h1, h2 {
+	font-family: 'Faster One', cursive;
+	color: #f6b93b;
+}
+
+/* header styles */
+
+h1 {
+	font-size: 4rem;
+	text-align: center;
+}
+
+header p {
+	font-size: 1.3rem;
+	font-weight: bold;
+	text-align: center;
+}
+
+/* section styles */
+
+section article {
+  width: 33%;
+  float: left;
+}
+
+section p {
+  margin: 5px 0;
+}
+
+section ul {
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2.5rem;
+  letter-spacing: -5px;
+  margin-bottom: 10px;
+}
+
+table,
+td {
+	border: 1px solid #f6b93b;
+	padding: 10px;
+}
+
+thead,
+tfoot {
+	background-color: #f6b93b;
+	color: #0c2461;
+}
